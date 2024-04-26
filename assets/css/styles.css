@@ -1,0 +1,224 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    color: black;
+    padding: 20px;
+}
+
+
+#perfil h1 a,
+#links a {
+    color: black;
+    text-decoration: none;
+}
+
+#perfil h1 a {
+    border: 1px solid black;
+    background-color: lightgray;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#perfil {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#links {
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+}
+
+#perfil h1 {
+    text-align: left;
+    padding-right: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+#secao_projetos,
+#secao_trajetorias,
+#secao_metas {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    color: #000000;
+    text-decoration: none;
+    padding-right: 20px;
+    flex-grow: 1;
+    flex: 1;
+    font-size: 24px;
+}
+
+
+hr {
+    width: 100%;
+    height: 1px;
+    border: none;
+    background-color: black;
+}
+
+#redes {
+    display: flex;
+    margin: 10px 5px 0 5px;
+    width: 20px;
+    height: 20px;
+    justify-content: flex-start;
+}
+
+#redes img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+#titulo {
+    margin-bottom: 0;
+    align-self: flex-end;
+    margin-right: 0;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.perfil img {
+    margin-right: 20px;
+}
+
+.social button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.social img {
+    width: 30px;
+    height: 30px;
+}
+
+.repositories {
+    background-color: #e9ecef;
+    padding: 20px;
+}
+
+.repository {
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+
+
+
+.colegas-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.colega {
+    width: 150px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.colega img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.colega p {
+    margin-top: 10px;
+}
+
+.contador {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-contador {
+    text-align: center;
+}
+
+.numero {
+    font-size: 2em;
+    color: #333;
+}
+
+.descricao {
+    font-size: 1em;
+    color: #666;
+}
+
+.repositorios h2 {
+    margin-bottom: 20px;
+}
+
+.repositorios {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.repository {
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #f9f9f9;
+    transition: box-shadow 0.3s;
+}
+
+.repository:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contador {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.item-contador {
+    text-align: center;
+}
+
+.item-contador img {
+    width: 20px;
+    height: 20px;
+}
+
+.repository span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.repository p {
+    font-size: 14px;
+    color: #666;
+}
+
+.carousel-inner img {
+    max-width: 75%;
+    margin: auto;
+  
+}
+
